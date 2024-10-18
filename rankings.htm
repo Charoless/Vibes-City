@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/rankings.css">
+    <title>Rankings</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">Vibes City</div>
+    <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav id="navMenu" class="nav-buttons">
+        <a href="home.htm" class="nav-button">Home</a>
+        <a href="rankings.htm" class="nav-button">Rankings</a>
+        <a href="about.htm" class="nav-button">About Us</a>
+        <a href="feedback.htm" class="nav-button">Feedback</a>
+    </nav>
+</header>
+<div class="tags">
+    <div class="tags-container">
+    <h3 class="tagss">Tags</h3>
+        </div>
+
+    <a href="#daily" class="tag">Daily</a>
+    <a href="#weekly" class="tag">Weekly</a>
+    <a href="#monthly" class="tag">Monthly</a>
+</div>
+
+<div class="video-container">
+    <div class="video-wrapper">
+        <h2>Discover OPM Songs</h2>
+        <video controls>
+            <source src="video/chillsongs.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+<h2 id="daily">Top Songs Daily</h2>
+    <div class="song-container">
+        <div class="song-box">
+            <img src="images/banchou.png" alt="Song 1" class="song-image">
+            <div class="wow">
+                <strong>1+1</strong><br>
+                Mapo
+            </div>
+        </div>
+        <div class="song-box">
+            <img src="images/vin.png" alt="Song 2" class="song-image">
+            <div class="wow">
+                <strong>Red</strong><br>
+                Naki
+            </div>
+        </div>
+        <div class="song-box">
+            <img src="images/nvm.png" alt="Song 3" class="song-image">
+            <div class="wow">
+                <strong>Skies</strong><br>
+                SiD
+            </div>
+        </div>
+    </div>
+
+    <h2 id="weekly">Top Songs Weekly</h2>
+    <div class="song-container">
+        <div class="song-box">
+            <img src="images/seer.png" alt="Song 1" class="song-image">
+            <div class="wow">
+                <strong>Through the Moon</strong><br>
+               banchou
+            </div>
+        </div>
+        <div class="song-box">
+            <img src="images/jien.png" alt="Song 2" class="song-image">
+            <div class="wow">
+                <strong>Doors</strong><br>
+                Vin
+            </div>
+        </div>
+        <div class="song-box">
+            <img src="images/beni.png" alt="Song 3" class="song-image">
+            <div class="wow">
+                <strong>The Usual</strong><br>
+                NvM
+            </div>
+        </div>
+    </div>
+
+    <h2 id="monthly">Top Songs Monthly</h2>
+    <div class="song-container">
+        <div class="song-box">
+            <img src="images/seer.png" alt="Song 1" class="song-image">
+            <div class="wow">
+                <strong>Wild Nights</strong><br>
+                seer
+            </div>
+        </div>
+        <div class="song-box">
+            <img src="images/jien.png" alt="Song 2" class="song-image">
+            <div class="wow">
+                <strong>Tsuki</strong><br>
+                Jien
+            </div>
+        </div>
+        <div class="song-box">
+            <img src="images/beni.png" alt="Song 3" class="song-image">
+            <div class="wow">
+                <strong>Usagi</strong><br>
+                Beni
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="social-icons">
+        <div class="social-icon">
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a> 
+        </div>
+    </div>
+    <p>&copy; 2024 Vibes City. All rights reserved.</p>
+</footer>
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('navMenu');
+        menu.classList.toggle('active'); 
+    }
+</script>
+</body>
+</html>

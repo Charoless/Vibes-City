@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">Vibes City</div>
+    <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav id="navMenu" class="nav-buttons">
+        <a href="home.htm" class="nav-button">Home</a>
+        <a href="rankings.htm" class="nav-button">Rankings</a>
+        <a href="about.htm" class="nav-button">About Us</a>
+        <a href="feedback.htm" class="nav-button">Feedback</a>
+    </nav>
+</header>
+
+<div class="container">
+    <img src="images/albums.png" alt="Portrait" class="portrait">
+    <div class="description">
+        <h2>Your Beat, Your Rankings:
+            Elevate Your Playlist!</h2>
+        <p>Vibes City is the go-to place for both music lovers and industry insiders in a world where music crosses boundaries and unites souls. Our goal is to celebrate music as an art form by providing an enjoyable and engaging platform that showcases the top performers in the music industry. Regardless of your level of interest in music casual listener, die-hard fan, or industry professional, Vibes City provides an all-encompassing experience suited to your tastes.</p>
+
+        <p>As a dynamic platform for music lovers, Vibes City distinguishes out since it provides daily, weekly, and monthly rankings that keep users up to date on the newest releases. The real-time updates, which let fans stay up to date with the newest songs and up-and-coming musicians, are one of its main advantages. The site's intuitive interface ensures a smooth experience by making it simple to switch between various genres and time periods. Furthermore, Vibes City promotes conversations about one's favorite songs and artists by allowing user involvement and ranking feedback. This helps to build a feeling of community. Every ardent music lover should check out this site, which focuses on both big songs and up-and-coming musicians. It's a great way to find new music.</p>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-description">
+        <h3>Here are some things to keep in mind while browsing our Website:</h3>
+        <p>Vibes City offers detailed charts and current rankings that showcase the newest developments in the music business. Popular songs may be given priority by the ranking system, which would result in a lack of diversity and possibly marginalize up-and-coming musicians. Furthermore, users may experience instability as a result of the frequent modifications because their favorite songs may appear to be ranking inconsistently.</p>
+    </div>
+    <img src="images/disk.png" alt="Box Image" class="box-image">
+</div>
+
+<footer>
+    <div class="social-icons">
+        <div class="social-icon">
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a> 
+        </div>
+    </div>
+    <p class="copy">&copy; 2024 Vibes City. All rights reserved.</p>
+</footer>
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('navMenu');
+        menu.classList.toggle('active'); 
+    }
+</script>
+</body>
+</html>

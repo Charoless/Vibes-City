@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <title>About Us</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">Vibes City</div>
+    <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav id="navMenu" class="nav-buttons">
+        <a href="home.htm" class="nav-button">Home</a>
+        <a href="rankings.htm" class="nav-button">Rankings</a>
+        <a href="about.htm" class="nav-button">About Us</a>
+        <a href="feedback.htm" class="nav-button">Feedback</a>
+    </nav>
+</header>
+
+<div class="main-content">
+    <div class="about-us-container">
+        <div class="about-us">About Us</div>
+    </div>
+
+        <div class="about-container">
+            <img src="images/handisk.png" alt="About Us" class="about-image"> 
+            <div>
+                <p>Finding the next big hit or undiscovered gem can often be an intimidating task in the constantly changing world of music, where genres collide and new artists appear on a regular basis. Introducing Vibes City, a revolutionary web portal aimed at changing our perception and interaction with music. Vibes City is more than just another music ranking site, it's a cozy, interactive site that connects fans and musicians and provides never-before-seen layers of information.</p>
+
+                <p>Vibes City is in fact a revolution in the way we listen to and engage with music, not just a music ranking website. It promises to improve the process of discovering music for both fans and composers by fusing advanced data analytics with a user-focused approach, making it a vital resource in the rapidly growing music industry.</p>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Features</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Overview</td>
+                <td>Your go-to platform for discovering and ranking the latest hits!</td>
+            </tr>
+            <tr>
+                <td>Weekly Updates</td>
+                <td>Stay current with weekly updates on new releases and rankings.</td>
+            </tr>
+            <tr>
+                <td>User-Friendly</td>
+                <td>Intuitive interface for easy navigation and ranking.</td>
+            </tr>
+        </table>
+
+<footer>
+    <div class="social-icons">
+        <div class="social-icon">
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a> 
+        </div>
+    </div>
+    <p>&copy; 2024 Vibes City. All rights reserved.</p>
+</footer>
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('navMenu');
+        menu.classList.toggle('active'); 
+    }
+</script>
+</body>
+</html>

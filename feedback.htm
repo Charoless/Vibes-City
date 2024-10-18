@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">Vibes City</div>
+    <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav id="navMenu" class="nav-buttons">
+        <a href="home.htm" class="nav-button">Home</a>
+        <a href="rankings.htm" class="nav-button">Rankings</a>
+        <a href="about.htm" class="nav-button">About Us</a>
+        <a href="feedback.htm" class="nav-button">Feedback</a>
+    </nav>
+</header>
+
+<div class="main-content">
+    <div class="feedback-container">
+        <div class="feedback">What did you think of our site?</div>
+    </div>
+
+    <div class="feedback-form">
+        <h2>Survey Form</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="social-icons">
+        <div class="social-icon">
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a> 
+        </div>
+        <div class="social-icon">
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a> 
+        </div>
+    </div>
+    <p>&copy; 2024 Vibes City. All rights reserved.</p>
+</footer>
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('navMenu');
+        menu.classList.toggle('active'); 
+    }
+</script>
+</body>
+</html>
